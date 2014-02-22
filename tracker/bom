@@ -1,0 +1,5 @@
+Type                Name                    Quantity        Power Requirements
+GPS Module          Venus638FLPx-L 20Hz         1           67mW full power navigation
+MCU                 ATXMEGA128A3U-AU            1           800mw MAX
+Transmitter         XBee-???                    1
+Voltage Regulator   ???                         1
