@@ -1,7 +1,20 @@
-Type                Name                    Quantity        Power Requirements
-GPS Module          Venus638FLPx-L 20Hz         1           67mW full power navigation
-MCU                 ATXMEGA128A3U-AU            1           800mw MAX
-Transmitter         XBee-???                    1           ?
-Voltage Regulator   ???                         1           ?
-Helical GPS Antenna ???                         1           ?
-LiPo battery        ???                         1           ?
+                    Components
+Type                Name/ETC                    Quantity        Power Requirements
+GPS Module          Venus638FLPx-L 20Hz             1           67mW full power navigation
+MCU                 ATXMEGA128A3U-AU                1           800mw MAX
+Transmitter         XBee-???                        1           ?
+Voltage Regulator   ???                             1           ?
+Helical GPS Antenna ???                             1           ?
+LiPo battery        ???                             1           ?
+Capacitor           (0805) 22pF GPS Antenna Filter  1
+Capacitor           (0805) Power Filter             6
+Resistor            (0805) 33k GPS Pull up          1
+Resistor            (0805) XMEGA PDI_CLK            1
+
+
+
+                    Headers & Connectors
+Description             P/N                         Quantity
+XBee Headers            -Already have-                  2
+PDI (3x1)x2             -Already have-                  1
+Debug serial (2x1)      -Already have-                  1+?
