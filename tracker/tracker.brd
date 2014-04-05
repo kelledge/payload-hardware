@@ -1326,6 +1326,8 @@ design rules under a new name.</description>
 <element name="LED2" library="led" package="CHIP-LED0805" value="" x="-50.8" y="2.54"/>
 <element name="LED3" library="led" package="CHIP-LED0805" value="" x="-57.15" y="2.54"/>
 <element name="COUT" library="SparkFun" package="0805" value="10 uF" x="-62.23" y="2.54"/>
+<element name="COUT1" library="SparkFun" package="0805" value="10 uF" x="-66.04" y="2.54"/>
+<element name="RPROG" library="SparkFun" package="0805" value="1K" x="-69.85" y="2.54"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -1359,6 +1361,8 @@ design rules under a new name.</description>
 <contactref element="J1" pad="1"/>
 <contactref element="RPULL" pad="2"/>
 <contactref element="COUT" pad="1"/>
+<contactref element="COUT1" pad="1"/>
+<contactref element="RPROG" pad="1"/>
 <wire x1="31.75" y1="74.56" x2="31.75" y2="78.37" width="0" layer="19" extent="1-1"/>
 <wire x1="31.75" y1="70.75" x2="31.75" y2="74.56" width="0" layer="19" extent="1-1"/>
 <wire x1="31.75" y1="66.94" x2="31.75" y2="70.75" width="0" layer="19" extent="1-1"/>
@@ -1388,6 +1392,8 @@ design rules under a new name.</description>
 <wire x1="-23.13" y1="1.7005" x2="-13.85" y2="7.59" width="0" layer="19" extent="1-1"/>
 <wire x1="-38.47" y1="2.54" x2="-23.13" y2="1.7005" width="0" layer="19" extent="1-1"/>
 <wire x1="-63.13" y1="2.54" x2="-38.47" y2="2.54" width="0" layer="19" extent="1-1"/>
+<wire x1="-66.94" y1="2.54" x2="-63.13" y2="2.54" width="0" layer="19" extent="1-1"/>
+<wire x1="-70.75" y1="2.54" x2="-66.94" y2="2.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDD">
 <contactref element="U$1" pad="1"/>
@@ -1567,6 +1573,8 @@ design rules under a new name.</description>
 <contactref element="LED1" pad="A"/>
 <contactref element="LED3" pad="A"/>
 <contactref element="RPULL" pad="1"/>
+<contactref element="COUT1" pad="2"/>
+<wire x1="-57.15" y1="1.49" x2="-65.14" y2="2.54" width="0" layer="19" extent="1-1"/>
 <wire x1="-50.8" y1="1.49" x2="-57.15" y2="1.49" width="0" layer="19" extent="1-1"/>
 <wire x1="-44.45" y1="1.49" x2="-50.8" y2="1.49" width="0" layer="19" extent="1-1"/>
 <wire x1="-40.27" y1="2.54" x2="-44.45" y2="1.49" width="0" layer="19" extent="1-1"/>
@@ -1603,6 +1611,11 @@ design rules under a new name.</description>
 <contactref element="RLED3" pad="2"/>
 <contactref element="LED3" pad="C"/>
 <wire x1="-34.66" y1="2.54" x2="-57.15" y2="3.59" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$12">
+<contactref element="U$5" pad="6"/>
+<contactref element="RPROG" pad="2"/>
+<wire x1="-23.13" y1="5.9195" x2="-68.95" y2="2.54" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
